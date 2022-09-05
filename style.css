@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Varela Round", "Fredoka", sans-serif;
+}
+
+:root {
+  --primary-color: rgb(153, 255, 0);
+}
+
+body {
+  background-color: rgb(0, 20, 40);
+  padding: 20px;
+}
+.controls {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 2px;
+  margin-bottom: 10px;
+}
+
+.text-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  background-color: var(--primary-color);
+  padding: 10px;
+  height: 30px;
+  width: 60px;
+  text-align: center;
+  align-items: center;
+  color: black;
+}
+
+.btn.right-border {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.btn.left-border {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.stack-container {
+  display: grid;
+  place-content: center;
+  transition: .5s;
+}
+.stack-ele {
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  -webkit-text-stroke: 0.05px black;
+  color: white;
+  background-color: #fec031;
+  margin: 5px;
+  display: grid;
+  align-content: center;
+  border-radius: 20px;
+  font-size: 48px;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.txt-box {
+  height: 30px;
+  background: rgba(255, 255, 255, 0.401);
+  color: var(--primary-color);
+  font: inherit;
+  border: 0;
+  outline: 0;
+  padding: 5px;
+}
+
+.center-container {
+  display: grid;
+  align-content: center;
+  width: 100%;
+  min-height: 60vh;
+}
+
+.helper-txt {
+  text-align: center;
+  padding: 20px;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.5);
+}
