@@ -1,9 +1,9 @@
 The project is currently hosted on github pages here:
 https://sarath191181208.github.io/queuViz/
 
-# Stack Viz
+# Queue Viz
 
-A simple simulation of push and pop operations of a stack
+A simple simulation of enqueu and dequeue operations of a queue
 
 ## Demo
 
