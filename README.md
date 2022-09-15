@@ -1,5 +1,5 @@
 The project is currently hosted on github pages here:
-https://sarath191181208.github.io/stackViz/
+https://sarath191181208.github.io/queuViz/
 
 # Stack Viz
 
