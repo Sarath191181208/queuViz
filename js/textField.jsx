@@ -10,7 +10,7 @@ const Inputbox = ({ onSubmitFn, onMinus }) => {
   return (
     <div className="text-input-container">
       <button className="btn left-border" onClick={onMinus}>
-        Pop
+        Dequeue
       </button>
       <input
         type="text"
@@ -27,7 +27,7 @@ const Inputbox = ({ onSubmitFn, onMinus }) => {
           setMessage(() => "");
         }}
       >
-        Push
+        Enqueue
       </button>
     </div>
   );
